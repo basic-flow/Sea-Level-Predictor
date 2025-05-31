@@ -33,7 +33,6 @@ def draw_plot():
     plt.title('Rise in Sea Level')
     plt.xlabel('Year', fontsize = 12)
     plt.ylabel('Sea Level (inches)', fontsize = 12)
-    
-    # Save plot and return data for testing (DO NOT MODIFY)
+
     plt.savefig('sea_level_plot.png')
     return plt.gca()
